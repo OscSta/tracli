@@ -2,7 +2,10 @@ module oscstal/tracli
 
 go 1.22.2
 
-require github.com/urfave/cli/v2 v2.27.2
+require (
+	github.com/mattn/go-sqlite3 v1.14.22
+	github.com/urfave/cli/v2 v2.27.2
+)
 
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
