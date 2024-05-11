@@ -83,6 +83,7 @@ func main() {
 				},
 			},
 		},
+		HideHelp: true,
 	}
 
 	err := app.Run(os.Args)
